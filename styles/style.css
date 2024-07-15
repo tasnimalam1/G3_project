@@ -145,8 +145,13 @@ main > section {
     align-items: center;
     justify-content: center;
   }
-  .team_img_container {
+  .team_img_container,
+  .facts_container {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .facts_container {
+    justify-items: center;
+    gap: 10px;
   }
   .our_feature {
     margin: 20px;
